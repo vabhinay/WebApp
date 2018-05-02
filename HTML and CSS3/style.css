@@ -1,0 +1,218 @@
+body {
+    background-color:rgba(105, 187, 224, 0.247);
+    font-family: "Comic Sans MS";
+    color: rgb(122, 91, 173);
+    margin: 5;
+    
+}
+
+.body-content {
+    padding: 0% 10%;
+    display: inline-block;
+}
+.logo {
+    width: 30%;
+    display: inline-block;
+}
+.header {
+    background-color: #442d2b;
+    padding: 0% 0% 0% 0%;
+    color: rgb(245, 157, 157);
+}
+.logging{
+    float: right;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+    display: inline-block;
+}
+.body-container{
+    background-color: rgb(83, 160, 204);
+    padding: 1% 2% 2% 1%;
+    color: rgb(20, 22, 22);
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+nav ul {
+    margin: 0 2%;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    background: #dfaa6d;
+    border: 1px solid #1a1818;
+    padding: 6%;
+    border-left: 6px solid #111010;
+}
+.user-container {
+    display: inline;
+    float: left;
+    width: 80%;
+}
+.user-container h2 {
+    color: #0e0c0c;
+    font-size: 20px;
+    padding-left: 15px;
+    border-left: 4px solid #161515;
+}
+.user-container .user-block {
+    float: left;
+    border: 1px solid #bababa;
+    border-radius: 2px;
+    margin: 1%;
+    background: #e9e9e9;
+    padding: 1%;
+    width: 29%;
+    position: relative;
+    display: inline-block;
+    height: 93px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    
+}
+.user-container .user-block:hover {
+    background: #fff;
+    transition-duration: .5s;
+    box-shadow: 4px 6px 2px #ccc;
+    -webkit-transform: rotate(50deg);
+    /* -webkit-transform: rotateY(360deg);*/          /* 3d-transform*/
+    /*-webkit-transform: translate(50px,100px);*/    /* 2d-translate*/
+}
+
+
+.user-container .user-block .user-details {
+    padding: 0 0 3px 0;
+    
+}
+
+.user-container .user-block .user-details .name {
+    color: #0e0d0d;
+    font-size: 14px;
+    width: 30%;
+    display: inline-block;
+    margin-right: 2%;
+    
+}
+
+.user-container .user-block .user-details .value {
+    width: 90%;
+    color: #d33a2c;
+    font-size: 14px;
+}
+.footer {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 40px 50px;
+    overflow: hidden;
+}
+.footer .footer-left {
+    float: left;
+}
+.footer .footer-left .footerName {
+    color: #dfe4eb;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer .footer-right {
+    float: right;
+}
+.footer- form {
+    position: relative;
+}
+
+.footer form input {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+    width: 500px;
+    padding: 18px 50px 18px 18px;
+}
+
+.footer form input:focus {
+    outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer form input::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer form input::-moz-placeholder {
+    opacity: 1;
+    color: #5c666b;
+}
+
+.footer form input:-ms-input-placeholder {
+    color: #5c666b;
+}
+
+/* The magnify glass icon */
+
+.footer form i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    color: #d1d2d2;
+    font-size: 18px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+    .footer form input {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer {
+        padding: 30px;
+        text-align: center;
+        font: bold 14px sans-serif;
+    }
+    .footer .footerName {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .footer .footer-left,
+    .footer .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .footer .footer-left {
+        margin-bottom: 20px;
+    }
+    .footer form input {
+        width: 100%;
+    }
+}
+
+
+
+    
+   
+   
